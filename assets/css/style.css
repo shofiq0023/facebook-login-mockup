@@ -1,0 +1,137 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: center;
+}
+h1,h2,h3,h4,h5,h6,p,a,img,ul,ol,li{
+	padding: 0;
+	margin: 0;
+}
+/*Common CSS*/
+
+.top-bar{
+	height: 83px;
+	background: linear-gradient(#4b67a1,#4b67a1,#3b5998);
+}
+.top-bar .brand a{
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+}
+.top-bar .brand{
+	margin-top: 10px;
+}
+.top-bar .log-in input{
+	margin-right: 14px;
+	border: 1px solid black;
+}
+.top-bar .log-in a{
+	margin-right: 14px;
+	font-size: 12px;
+	color: white;
+	margin-top: 31px;
+	border: 1px solid black;
+	padding: 4px 7px;
+	background: #4267b2;
+	border-radius: 3px;
+}
+.top-bar .log-in label{
+	color: #fff;
+	font-size: 14px;
+}
+
+
+
+.header-part{
+	padding: 31px 0 30px;
+	background: linear-gradient(#fdfdfe,#e9ecf4,#d5dae9);
+}
+.header-part h2{
+	font-size: 22px;
+	color: #0e385f;
+}
+.header-part img{
+	margin-top: 10px;
+}
+.header-part h1{
+	color: #333333;
+}
+.header-part h3{
+	font-size: 20px;
+	padding-bottom: 28px;
+}
+.header-part .form-control{
+	border-radius: 8px;
+	
+}
+.header-part label{
+	margin-right: 50px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.header-part .b-day-l{
+	font-size: 18px;
+	color: black;
+	font-weight: 500;
+}
+.header-part .b-day .form-control{
+	width: 40%;
+	border-radius: 0;
+	margin-right: 10px;
+}
+.header-part .b-day a{
+	font-size: 14px;
+}
+.header-part p{
+	color: #777;
+	font-size: 12px;
+	width: 65%;
+}
+.header-part .btn{
+	border: 1px solid #3b6e22;
+	background: linear-gradient(#66ab53,#609c4d,#588b44);
+	color: #fff;
+	text-shadow: 0 1px 5px rgba(0,0,0,1);
+	padding: 8px 60px;
+	font-weight: 700;
+}
+.header-part h5{
+	font-size: 18px;
+	padding-top: 40px;
+}
+
+.footer{
+	padding: 80px 0 65px;
+}
+.footer a{
+	padding-right: 15px;
+	font-size: 14px;
+}
+.footer .f-btn{
+	padding: 3px 10px;
+	background: #e2e2e2;
+	border: 1px solid #aaa;
+	color: #595959;
+	font-weight: 700;
+	border-radius: 3px;
+}
+.footer .f-btn:hover{
+	text-decoration: none;
+	background: #A8A8A8;
+}
+.active{
+	color: #b9b9b9;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
